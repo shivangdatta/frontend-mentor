@@ -1,0 +1,22 @@
+.container-cls{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(0, 0%, 91%);
+}
+body{
+    background-color: hsl(0, 0%, 91%);
+}
+.card{
+    border: 1px white solid;
+    padding: 20px;
+    border-radius: 3%;
+    width: 350px;
+    text-align: center;
+    background-color: white;
+}
+.card-img{
+    width : 100%;
+    height: auto;
+}
