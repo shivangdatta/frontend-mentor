@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+    color : white;
+}
+
+.card-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color : white;
+}
+.card{
+    background-color: rgb(21, 21, 21);
+    width: 350px;
+    border: 1px solid black;
+    text-align: center;
+    padding: 3%;
+    border-radius: 3%;;
+}
+.card-img{
+    border-radius: 100%;
+}
+.loc-text{
+    color: #73D06F;
+    font-weight: bold;
+    font-size: larger;
+}
+.link-btn{
+    width: 100%;
+    margin-top: 4% ;
+    border: solid 1px #73D06F;
+    background-color: transparent;
+    color : white;
+    padding: 3%;
+}
+.link-btn:hover {
+   background-color: #73D06F;
+   cursor: pointer;
+}
